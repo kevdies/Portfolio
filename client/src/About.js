@@ -31,11 +31,39 @@ function About() {
       <Row>
         <Col className="text-center">
           <p className="lead">
-            I am a software engineer with experience in React, Rails, and SQL. I
-            enjoy solving complex problems and learning new technologies.
+            I am a versatile Full Stack Software Engineer with expertise in
+            object-oriented programming, web development, and database
+            management. My proficiency includes JavaScript, Ruby, React, and
+            Ruby on Rails, and I am skilled in SQL, PostgreSQL, HTML, CSS,
+            Bootstrap, Reactstrap, Render, Git, Agile Methodologies, Test Driven
+            Development, MVC Architecture, API Integration, REST API, User
+            Authentication, and Data Validation.
           </p>
-          <p>
-            In my free time, I like to read books, go on hikes, and play guitar.
+          <p className="lead">
+            Aside from my passion for Full Stack Software Engineering, I have
+            several hobbies that keep me active and energized. I love spending
+            time outdoors and engaging in activities such as skydiving, road
+            biking, mountain biking, hiking, backpacking, bikepacking, and
+            camping. My experience in the entertainment, outdoor, and skydiving
+            industries has given me exceptional leadership and organizational
+            skills.
+          </p>
+          <p className="lead">
+            Before becoming a Full Stack Software Engineer, I worked as a
+            Skydiving Instructor at the Midwest Freefall Parachute Center, a
+            Rigger and Stagehand for the International Allegiance of Theatrical
+            Stage Employees in Washington D.C., and as a Backcountry Water
+            Treatment Operator for the National Park Service in Yosemite,
+            California. I also worked as a Restaurant Manager for Panda Veg in
+            Richmond, Virginia.
+          </p>
+          <p className="lead">
+            I obtained my Full Stack Software Engineer certification from
+            Flatiron School, where I studied Ruby on Rails and JavaScript. My hobbies allow me to maintain a healthy
+            work-life balance, stay active, and connect with nature. I believe
+            that a well-rounded lifestyle is essential to being a successful
+            Full Stack Software Engineer, and my hobbies provide me with the
+            energy and inspiration to excel in my work.
           </p>
         </Col>
       </Row>
