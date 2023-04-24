@@ -64,17 +64,47 @@ function Projects() {
         </Col>
         <Col md="4">
           <Card>
-            <CardImg top src="/project2.png" alt="Project 2" />
+            <CardImg top src="/TrailShareLogo.png" alt="Trail-Share" />
             <CardBody>
-              <CardTitle>Project 2</CardTitle>
+              <CardTitle>Trail Share</CardTitle>
               <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                laoreet tortor ac eros lobortis ultricies.
+                <ul>
+                  <h5>
+                    A social networking platform for hikers to share and
+                    discover trail information, track miles hiked, and earn
+                    badges.
+                  </h5>
+
+                  <li>
+                    Created with React, Ruby on Rails, Active Record, Bootstrap,
+                    and PostgreSQL.
+                  </li>
+                  <li>
+                    Utilized RESTful API design principles to build efficient
+                    back-end services.
+                  </li>
+                  <li>
+                    Implemented user authentication and authorization using
+                    bcrypt.
+                  </li>
+                  <li>
+                    Developed a responsive User Interface with Bootstrap and
+                    CSS-styled components.
+                  </li>
+                </ul>
               </CardText>
-              <Button color="primary" href="#">
+              <Button
+                color="primary"
+                href="https://youtu.be/seImhfcp8X8"
+                target="_blank"
+              >
                 Demo
               </Button>{" "}
-              <Button color="secondary" href="#">
+              <Button
+                color="secondary"
+                href="https://github.com/drclements/trail-share"
+                target="_blank"
+              >
                 GitHub
               </Button>
             </CardBody>
@@ -82,9 +112,9 @@ function Projects() {
         </Col>
         <Col md="4">
           <Card>
-            <CardImg top src="/project3.png" alt="Project 3" />
+            <CardImg top src="/HSTRY-logo.png" alt="HSTRY" />
             <CardBody>
-              <CardTitle>Project 3</CardTitle>
+              <CardTitle>HSTRY</CardTitle>
               <CardText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 laoreet tortor ac eros lobortis ultricies.
@@ -92,7 +122,11 @@ function Projects() {
               <Button color="primary" href="#">
                 Demo
               </Button>{" "}
-              <Button color="secondary" href="#">
+              <Button
+                color="secondary"
+                href="https://github.com/kevdies/HSTRY"
+                target="_blank"
+              >
                 GitHub
               </Button>
             </CardBody>
@@ -104,5 +138,3 @@ function Projects() {
 }
 
 export default Projects;
-
-
