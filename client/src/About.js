@@ -91,9 +91,9 @@
        function About() {
          return (
            <Container className="my-5">
-             <h1 className="mb-4 text-center header">
-               Hello, I'm Kevin Diesenberg
-             </h1>
+             <div className="mb-4 text-center">
+               <img src="/kevinportfoliobanner.png" alt="Kevin Diesenberg" className="img-fluid"/>
+             </div>
              <Row className="mb-4 text-center">
                <ImageComponent
                  src="/kevin-artichoke.png"
