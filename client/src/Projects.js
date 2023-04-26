@@ -94,7 +94,6 @@ const projects = [
 function Projects() {
   return (
     <Container className="my-5">
-      <h1 className="mb-4 text-center">My Projects</h1>
       <Row>
         {projects.map((project) => (
           <Col md="4" key={project.title}>
