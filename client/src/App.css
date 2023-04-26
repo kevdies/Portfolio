@@ -268,12 +268,14 @@ p {
   background-color: var(--dark-color);
   border-color: var(--dark-color);
   color: var(--secondary-color);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .custom-button:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
   color: var(--secondary-color);
+  transform: scale(1.05);
 }
 
 .contact-container {
