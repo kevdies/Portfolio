@@ -113,9 +113,16 @@ const projects = [
 function Projects() {
   return (
     <Container className="my-5">
+      {/* <div className="mb-4 text-center">
+        <img
+          src="/kevinportfoliobanner.png"
+          alt="Kevin Diesenberg"
+          className="img-fluid"
+        />
+      </div> */}
       <Row>
         {projects.map((project) => (
-          <Col md="4" key={project.title}>
+          <Col xs="12" sm="6" md="4" key={project.title}>
             <Card className="mb-4">
               <CardImg top src={project.imgSrc} alt={project.imgAlt} />
               <CardBody>

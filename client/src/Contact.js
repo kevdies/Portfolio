@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -44,27 +45,26 @@ const contactLinks = [
 
 function Contact() {
   return (
-    <div className="text-center my-5 contact-container">
-      <h1>Contact Me</h1>
-      <p>Feel free to reach out to me on any of these platforms:</p>
-      <div>
-        {contactLinks.map(({ href, icon }) => (
-          <a
-            key={href}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-link"
-          >
-            <FontAwesomeIcon
-              icon={icon}
-              size="3x"
-              className="mx-3 contact-icon"
-            />
-          </a>
+    <Container className="text-center my-5">
+      <Row className="justify-content-center">
+        {contactLinks.map(({ href, icon }, index) => (
+          <Col key={index} xs="6" sm="4" md="4" lg="2" className="mb-4">
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link d-inline-block"
+            >
+              <FontAwesomeIcon
+                icon={icon}
+                size="3x"
+                className="mx-3 contact-icon"
+              />
+            </a>
+          </Col>
         ))}
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 }
 
