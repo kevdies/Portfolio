@@ -1,4 +1,4 @@
- /* :root {
+/* :root {
   --primary-color: #705D89;
   --secondary-color: #C6BCDB;
   --accent-color: #848586;
@@ -154,11 +154,11 @@ p {
 } */
 
 :root {
-  --primary-color: #705D89;
-  --secondary-color: #C6BCDB;
+  --primary-color: #705d89;
+  --secondary-color: #c6bcdb;
   --accent-color: #848586;
   --light-color: #dfe0e2;
-  --dark-color: #34373B;
+  --dark-color: #34373b;
   --text-color: #000000;
   --box-shadow-color: rgba(52, 55, 59, 0.2);
 }
@@ -264,24 +264,16 @@ p {
   color: var(--dark-color);
 }
 
-.btn-primary {
+.custom-button {
+  background-color: var(--dark-color);
+  border-color: var(--dark-color);
+  color: var(--secondary-color);
+}
+
+.custom-button:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
-}
-
-.btn-primary:hover {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.btn-secondary {
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
-}
-
-.btn-secondary:hover {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 .contact-container {
@@ -308,4 +300,8 @@ p {
   transform: translateY(-5px);
 }
 
-
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
