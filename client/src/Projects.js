@@ -81,10 +81,29 @@ const projects = [
     imgSrc: "/HSTRY-logo.png",
     imgAlt: "HSTRY",
     description: (
-      <CardText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet
-        tortor ac eros lobortis ultricies.
-      </CardText>
+      <>
+      <h5>
+        A state controlled form designed to aid medical historians in
+        efficiently compiling medical histories for QME evaluation applicants.
+      </h5>
+       <ul>
+          <li>
+            Created with React, Ruby on Rails, Active Record, Reactstrap, and
+            PostgreSQL.
+          </li>
+          <li>
+            Utilized RESTful API design principles to build efficient back-end
+            services.
+          </li>
+          <li>
+            Implemented user authentication and authorization using bcrypt.
+          </li>
+          <li>
+            Developed a responsive User Interface with Reactstrap and CSS-styled
+            components.
+          </li>
+        </ul>
+        </>
     ),
     demoLink: "#",
     githubLink: "https://github.com/kevdies/HSTRY",
@@ -97,7 +116,7 @@ function Projects() {
       <Row>
         {projects.map((project) => (
           <Col md="4" key={project.title}>
-            <Card>
+            <Card className="mb-4">
               <CardImg top src={project.imgSrc} alt={project.imgAlt} />
               <CardBody>
                 <CardTitle>{project.title}</CardTitle>
